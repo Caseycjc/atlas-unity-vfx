@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8267286856281135165}
   - component: {fileID: 829986728111914138}
   - component: {fileID: -3507195059618447803}
+  - component: {fileID: 8606209621342941093}
   m_Layer: 0
   m_Name: DanceSphere
   m_TagString: Sphere
@@ -106,7 +107,7 @@ TrailRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3977854880677541266}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -119,7 +120,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 659c479cb5f893143a83969ae833cfb9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -197,3 +198,16 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &8606209621342941093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3977854880677541266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96fe7eef4bfabd84e863f1ba11965327, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: {x: 3, y: 3, z: 3}

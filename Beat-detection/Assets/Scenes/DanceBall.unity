@@ -823,7 +823,7 @@ MonoBehaviour:
   playerTransform: {fileID: 975179918}
   maxInterval: 2
   minInterval: 0.5
-  baseSpeed: 2
+  baseSpeed: 400
   initialDelay: 5
 --- !u!1 &615476200
 GameObject:
@@ -1055,7 +1055,7 @@ MonoBehaviour:
   playerTransform: {fileID: 975179918}
   maxInterval: 2
   minInterval: 0.5
-  baseSpeed: 2
+  baseSpeed: 400
   initialDelay: 5
 --- !u!4 &701279277
 Transform:
@@ -1202,7 +1202,7 @@ MonoBehaviour:
   playerTransform: {fileID: 975179918}
   maxInterval: 2
   minInterval: 0.5
-  baseSpeed: 2
+  baseSpeed: 400
   initialDelay: 5
 --- !u!4 &726477401
 Transform:
@@ -1252,7 +1252,7 @@ MonoBehaviour:
   playerTransform: {fileID: 975179918}
   maxInterval: 2
   minInterval: 0.5
-  baseSpeed: 2
+  baseSpeed: 400
   initialDelay: 5
 --- !u!4 &767404414
 Transform:
@@ -1436,7 +1436,7 @@ MonoBehaviour:
   playerTransform: {fileID: 975179918}
   maxInterval: 2
   minInterval: 0.5
-  baseSpeed: 2
+  baseSpeed: 400
   initialDelay: 5
 --- !u!4 &818476307
 Transform:
@@ -1768,7 +1768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 356269178233425819, guid: e88933abc1576cc4292d3e8f522c2095, type: 3}
       propertyPath: speed
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 356269178233425819, guid: e88933abc1576cc4292d3e8f522c2095, type: 3}
       propertyPath: m_Enabled
@@ -3046,7 +3046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbeac5605190f1e41888bced790d9d10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 10
 --- !u!1 &983315119
 GameObject:
   m_ObjectHideFlags: 0
@@ -3111,7 +3111,7 @@ MonoBehaviour:
   playerTransform: {fileID: 975179918}
   maxInterval: 2
   minInterval: 0.5
-  baseSpeed: 2
+  baseSpeed: 400
   initialDelay: 5
 --- !u!4 &1034218490
 Transform:
@@ -3234,7 +3234,7 @@ MonoBehaviour:
   playerTransform: {fileID: 975179918}
   maxInterval: 2
   minInterval: 0.5
-  baseSpeed: 2
+  baseSpeed: 400
   initialDelay: 5
 --- !u!4 &1218531655
 Transform:
@@ -3605,7 +3605,7 @@ MonoBehaviour:
   playerTransform: {fileID: 975179918}
   maxInterval: 2
   minInterval: 0.5
-  baseSpeed: 2
+  baseSpeed: 400
   initialDelay: 5
 --- !u!4 &1523450292
 Transform:
@@ -4306,7 +4306,7 @@ MonoBehaviour:
   playerTransform: {fileID: 975179918}
   maxInterval: 2
   minInterval: 0.5
-  baseSpeed: 2
+  baseSpeed: 400
   initialDelay: 5
 --- !u!4 &2030479960
 Transform:
@@ -4530,7 +4530,7 @@ MonoBehaviour:
   playerTransform: {fileID: 975179918}
   maxInterval: 2
   minInterval: 0.5
-  baseSpeed: 2
+  baseSpeed: 400
   initialDelay: 5
 --- !u!4 &2135801458
 Transform:

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8267286856281135165}
   - component: {fileID: 829986728111914138}
   - component: {fileID: -3507195059618447803}
+  - component: {fileID: 1469892455314293070}
   m_Layer: 0
   m_Name: RaveSphere
   m_TagString: Sphere
@@ -148,8 +149,8 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.08604789
-        value: 0.12307197
+        time: 0.051082373
+        value: 0.07668525
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -161,9 +162,9 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 0, b: 0.8548727, a: 1}
+      key0: {r: 0.735849, g: 0.107600555, b: 0.6270977, a: 1}
       key1: {r: 0.65320975, g: 0.21293166, b: 0.8207547, a: 1}
-      key2: {r: 0, g: 0, b: 0, a: 0}
+      key2: {r: 0.7541782, g: 0.3973834, b: 0.8867924, a: 0.13725841}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
@@ -171,23 +172,23 @@ TrailRenderer:
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
       ctime1: 30455
-      ctime2: 0
+      ctime2: 63993
       ctime3: 0
       ctime4: 0
       ctime5: 0
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 65535
-      atime2: 0
-      atime3: 0
+      atime1: 42598
+      atime2: 62451
+      atime3: 65535
       atime4: 0
       atime5: 0
       atime6: 0
       atime7: 0
       m_Mode: 0
-      m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
+      m_NumColorKeys: 3
+      m_NumAlphaKeys: 4
     numCornerVertices: 0
     numCapVertices: 0
     alignment: 0
@@ -197,3 +198,16 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &1469892455314293070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3977854880677541266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96fe7eef4bfabd84e863f1ba11965327, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: {x: 3, y: 3, z: 3}

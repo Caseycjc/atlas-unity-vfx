@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8267286856281135165}
   - component: {fileID: 829986728111914138}
   - component: {fileID: -3507195059618447803}
+  - component: {fileID: 6318028609945584140}
   m_Layer: 0
   m_Name: CountrySphere
   m_TagString: Sphere
@@ -106,7 +107,7 @@ TrailRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3977854880677541266}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -119,7 +120,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: a2b08bec32144944c99763402932e5c0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -161,8 +162,8 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 0, b: 0.8548727, a: 1}
-      key1: {r: 0.65320975, g: 0.21293166, b: 0.8207547, a: 1}
+      key0: {r: 0.7075472, g: 0.41051087, b: 0.43137255, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -170,7 +171,7 @@ TrailRenderer:
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 30455
+      ctime1: 65535
       ctime2: 0
       ctime3: 0
       ctime4: 0
@@ -197,3 +198,16 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &6318028609945584140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3977854880677541266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96fe7eef4bfabd84e863f1ba11965327, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: {x: 5, y: 5, z: 5}

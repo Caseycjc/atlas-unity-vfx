@@ -53,19 +53,20 @@ public class SphereLauncher : MonoBehaviour
     void LaunchSphere()
     {
         GameObject sphere = Instantiate(spherePrefab, transform.position, Quaternion.identity);
-        Rigidbody rb = sphere.AddComponent<Rigidbody>();
-        rb.useGravity = false;
-
-        // Calculate launch speed based on the audio intensity, scale up intensity effect
-        float intensity = CalculateIntensity();
-        float speed = baseSpeed + (intensity * 10); // Amplify intensity effect for speed
-
-        Debug.Log("Launching sphere at speed: " + speed + " with base intensity: " + intensity);
-
-        // Calculate direction towards the player
+        
+        // Calculate initial direction towards the player
         Vector3 direction = (playerTransform.position - transform.position).normalized;
-        rb.velocity = direction * speed; // Set velocity towards the player
+        float intensity = CalculateIntensity();
+        float initialSpeed = baseSpeed + (intensity * 10);
+
+        // Attach and initialize the SphereVelocityController
+        SphereVelocityController controller = sphere.AddComponent<SphereVelocityController>();
+        controller.velocity = direction * initialSpeed; // Set initial velocity that will be maintained
     }
+
+
+
+
 
     float CalculateIntensity()
     {

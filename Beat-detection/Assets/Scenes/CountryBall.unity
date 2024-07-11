@@ -123,6 +123,56 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &101204616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 101204618}
+  - component: {fileID: 101204617}
+  m_Layer: 0
+  m_Name: SphereLauncher (16)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &101204617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101204616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892cae89c5a1d954c9b4a0d515ea199a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spherePrefab: {fileID: 3977854880677541266, guid: 64be75763dcc25e4bb4c596f5f9b8585, type: 3}
+  playerTransform: {fileID: 975179918}
+  maxInterval: 7
+  minInterval: 2
+  baseSpeed: 400
+  initialDelay: 5
+--- !u!4 &101204618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101204616}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.93, y: 1.6999998, z: 14.44}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &149586367 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2806357531609469399, guid: 6de3df373906d614b8bccf0e7e199ce7, type: 3}
@@ -283,9 +333,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spherePrefab: {fileID: 3977854880677541266, guid: 64be75763dcc25e4bb4c596f5f9b8585, type: 3}
   playerTransform: {fileID: 975179918}
-  maxInterval: 3
-  minInterval: 0.5
-  baseSpeed: 15
+  maxInterval: 7
+  minInterval: 2
+  baseSpeed: 400
   initialDelay: 5
 --- !u!4 &192322967
 Transform:
@@ -375,6 +425,56 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6de3df373906d614b8bccf0e7e199ce7, type: 3}
+--- !u!1 &290959904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 290959906}
+  - component: {fileID: 290959905}
+  m_Layer: 0
+  m_Name: SphereLauncher (17)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &290959905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290959904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892cae89c5a1d954c9b4a0d515ea199a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spherePrefab: {fileID: 3977854880677541266, guid: 64be75763dcc25e4bb4c596f5f9b8585, type: 3}
+  playerTransform: {fileID: 975179918}
+  maxInterval: 7
+  minInterval: 2
+  baseSpeed: 400
+  initialDelay: 5
+--- !u!4 &290959906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290959904}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.16, y: 1.6999998, z: 8.28}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &361630904 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2806357531609469399, guid: 6de3df373906d614b8bccf0e7e199ce7, type: 3}
@@ -825,6 +925,56 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &465827211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 465827213}
+  - component: {fileID: 465827212}
+  m_Layer: 0
+  m_Name: SphereLauncher (21)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &465827212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465827211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892cae89c5a1d954c9b4a0d515ea199a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spherePrefab: {fileID: 3977854880677541266, guid: 64be75763dcc25e4bb4c596f5f9b8585, type: 3}
+  playerTransform: {fileID: 975179918}
+  maxInterval: 7
+  minInterval: 2
+  baseSpeed: 400
+  initialDelay: 5
+--- !u!4 &465827213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465827211}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.64, y: 1.6999998, z: -3.89}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &615476200
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,9 +1074,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spherePrefab: {fileID: 3977854880677541266, guid: 64be75763dcc25e4bb4c596f5f9b8585, type: 3}
   playerTransform: {fileID: 975179918}
-  maxInterval: 3
-  minInterval: 0.5
-  baseSpeed: 15
+  maxInterval: 7
+  minInterval: 2
+  baseSpeed: 400
   initialDelay: 5
 --- !u!4 &618452935
 Transform:
@@ -1200,9 +1350,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spherePrefab: {fileID: 3977854880677541266, guid: 64be75763dcc25e4bb4c596f5f9b8585, type: 3}
   playerTransform: {fileID: 975179918}
-  maxInterval: 3
-  minInterval: 0.5
-  baseSpeed: 15
+  maxInterval: 7
+  minInterval: 2
+  baseSpeed: 400
   initialDelay: 5
 --- !u!4 &740504248
 Transform:
@@ -1668,7 +1818,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 356269178233425819, guid: e88933abc1576cc4292d3e8f522c2095, type: 3}
       propertyPath: speed
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 356269178233425819, guid: e88933abc1576cc4292d3e8f522c2095, type: 3}
       propertyPath: m_Enabled
@@ -2946,7 +3096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbeac5605190f1e41888bced790d9d10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 10
 --- !u!1 &983315119
 GameObject:
   m_ObjectHideFlags: 0
@@ -3009,9 +3159,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spherePrefab: {fileID: 3977854880677541266, guid: 64be75763dcc25e4bb4c596f5f9b8585, type: 3}
   playerTransform: {fileID: 975179918}
-  maxInterval: 3
-  minInterval: 0.5
-  baseSpeed: 15
+  maxInterval: 7
+  minInterval: 2
+  baseSpeed: 400
   initialDelay: 5
 --- !u!4 &1047969978
 Transform:
@@ -3303,6 +3453,56 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6de3df373906d614b8bccf0e7e199ce7, type: 3}
+--- !u!1 &1296445222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1296445224}
+  - component: {fileID: 1296445223}
+  m_Layer: 0
+  m_Name: SphereLauncher (19)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1296445223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296445222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892cae89c5a1d954c9b4a0d515ea199a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spherePrefab: {fileID: 3977854880677541266, guid: 64be75763dcc25e4bb4c596f5f9b8585, type: 3}
+  playerTransform: {fileID: 975179918}
+  maxInterval: 7
+  minInterval: 2
+  baseSpeed: 400
+  initialDelay: 5
+--- !u!4 &1296445224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296445222}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.93, y: 1.6999998, z: 22.36}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1421561964
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3407,9 +3607,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spherePrefab: {fileID: 3977854880677541266, guid: 64be75763dcc25e4bb4c596f5f9b8585, type: 3}
   playerTransform: {fileID: 975179918}
-  maxInterval: 3
-  minInterval: 0.5
-  baseSpeed: 15
+  maxInterval: 7
+  minInterval: 2
+  baseSpeed: 400
   initialDelay: 5
 --- !u!4 &1423610910
 Transform:
@@ -3425,6 +3625,156 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1428446782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1428446784}
+  - component: {fileID: 1428446783}
+  m_Layer: 0
+  m_Name: SphereLauncher (18)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1428446783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428446782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892cae89c5a1d954c9b4a0d515ea199a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spherePrefab: {fileID: 3977854880677541266, guid: 64be75763dcc25e4bb4c596f5f9b8585, type: 3}
+  playerTransform: {fileID: 975179918}
+  maxInterval: 7
+  minInterval: 2
+  baseSpeed: 400
+  initialDelay: 5
+--- !u!4 &1428446784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428446782}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.64, y: 1.6999998, z: 19.49}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1478259563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1478259565}
+  - component: {fileID: 1478259564}
+  m_Layer: 0
+  m_Name: SphereLauncher (23)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1478259564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478259563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892cae89c5a1d954c9b4a0d515ea199a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spherePrefab: {fileID: 3977854880677541266, guid: 64be75763dcc25e4bb4c596f5f9b8585, type: 3}
+  playerTransform: {fileID: 975179918}
+  maxInterval: 7
+  minInterval: 2
+  baseSpeed: 400
+  initialDelay: 5
+--- !u!4 &1478259565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478259563}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.93, y: 1.6999998, z: 1.14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1513509972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1513509974}
+  - component: {fileID: 1513509973}
+  m_Layer: 0
+  m_Name: SphereLauncher (20)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1513509973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513509972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892cae89c5a1d954c9b4a0d515ea199a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spherePrefab: {fileID: 3977854880677541266, guid: 64be75763dcc25e4bb4c596f5f9b8585, type: 3}
+  playerTransform: {fileID: 975179918}
+  maxInterval: 7
+  minInterval: 2
+  baseSpeed: 400
+  initialDelay: 5
+--- !u!4 &1513509974
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513509972}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.93, y: 1.6999998, z: 6.86}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1514985921
 GameObject:
@@ -3457,9 +3807,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spherePrefab: {fileID: 3977854880677541266, guid: 64be75763dcc25e4bb4c596f5f9b8585, type: 3}
   playerTransform: {fileID: 975179918}
-  maxInterval: 3
-  minInterval: 0.5
-  baseSpeed: 15
+  maxInterval: 7
+  minInterval: 2
+  baseSpeed: 400
   initialDelay: 5
 --- !u!4 &1514985923
 Transform:
@@ -3553,9 +3903,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spherePrefab: {fileID: 3977854880677541266, guid: 64be75763dcc25e4bb4c596f5f9b8585, type: 3}
   playerTransform: {fileID: 975179918}
-  maxInterval: 3
-  minInterval: 0.5
-  baseSpeed: 15
+  maxInterval: 7
+  minInterval: 2
+  baseSpeed: 400
   initialDelay: 5
 --- !u!4 &1549896785
 Transform:
@@ -3758,6 +4108,56 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseCanvas: {fileID: 0}
+--- !u!1 &1667863036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1667863038}
+  - component: {fileID: 1667863037}
+  m_Layer: 0
+  m_Name: SphereLauncher (22)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1667863037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667863036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892cae89c5a1d954c9b4a0d515ea199a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spherePrefab: {fileID: 3977854880677541266, guid: 64be75763dcc25e4bb4c596f5f9b8585, type: 3}
+  playerTransform: {fileID: 975179918}
+  maxInterval: 7
+  minInterval: 2
+  baseSpeed: 400
+  initialDelay: 5
+--- !u!4 &1667863038
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667863036}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.64, y: 1.6999998, z: 2.02}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1683675365
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3862,9 +4262,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spherePrefab: {fileID: 3977854880677541266, guid: 64be75763dcc25e4bb4c596f5f9b8585, type: 3}
   playerTransform: {fileID: 975179918}
-  maxInterval: 3
-  minInterval: 0.5
-  baseSpeed: 15
+  maxInterval: 7
+  minInterval: 2
+  baseSpeed: 400
   initialDelay: 5
 --- !u!4 &1753460258
 Transform:
@@ -3912,9 +4312,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spherePrefab: {fileID: 3977854880677541266, guid: 64be75763dcc25e4bb4c596f5f9b8585, type: 3}
   playerTransform: {fileID: 975179918}
-  maxInterval: 3
-  minInterval: 0.5
-  baseSpeed: 15
+  maxInterval: 7
+  minInterval: 2
+  baseSpeed: 400
   initialDelay: 5
 --- !u!4 &1867247168
 Transform:
@@ -4354,9 +4754,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spherePrefab: {fileID: 3977854880677541266, guid: 64be75763dcc25e4bb4c596f5f9b8585, type: 3}
   playerTransform: {fileID: 975179918}
-  maxInterval: 3
-  minInterval: 0.5
-  baseSpeed: 15
+  maxInterval: 7
+  minInterval: 2
+  baseSpeed: 400
   initialDelay: 5
 --- !u!4 &1948264915
 Transform:
